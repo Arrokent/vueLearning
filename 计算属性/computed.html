@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> -->
+    <script src="../vue.js" charset="utf-8"></script>
+</head>
+<body>
+
+<div id="div1">
+    {{fullName}}
+    {{totalPrice}}
+</div>
+
+
+<script>
+    const app = new Vue({
+        el: '#div1',
+        data: {
+            message: 'chibiken',
+            movies: ['1','2','3'],
+            firstName: 't',
+            lastName: 'py',
+            books: [
+                {name: '深入了解计算机系统', price: 58},
+                {name: '操作系统真象还原', price: 48},
+                {name: '代码大全', price: 98},
+            ]
+        },
+
+        // 计算属性，对属性进行一些封装和操作后返回
+        computed: {
+            fullName: function () {
+                return this.firstName + ' ' + this.lastName;
+            },
+            totalPrice: function () {
+                let tp = 0;
+                for (let book of this.books)
+                    // for of, book直接就是某一个book
+                    // for i in books, i和传统for一致, 是一个index
+                    tp += book.price;
+                return tp;
+            }
+        }
+    })
+</script>
+
+</body>
+</html>

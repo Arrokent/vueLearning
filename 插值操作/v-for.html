@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> -->
+    <script src="../vue.js" charset="utf-8"></script>
+
+    <style>
+        .active{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+<div id="div1">
+    <ul>
+        <li v-for="(item, index) in movies" v-on:click="changeColor(index)" :class="{active: isActive}" :id="'movie' + index">{{item}}</li>
+    </ul>
+</div>
+
+
+<script>
+    const app = new Vue({
+        el: '#div1',
+        data: {
+            message: 'chibiken',
+            movies: ['东京喰种', '四月', '罪恶王冠'],
+            isActive: false
+        },
+        methods: {
+            changeColor: function (index) {
+                var a = document.getElementById('movie' + index);
+                a.style.color="red";
+            }
+        }
+    })
+</script>
+
+</body>
+</html>
