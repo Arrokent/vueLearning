@@ -5,23 +5,21 @@
     <title>Title</title>
     <!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> -->
     <script src="../vue.js" charset="utf-8"></script>
-
-    <style>
-        [v-cloak] {
-            display: none;
-        }
-    </style>
 </head>
 <body>
 
 <div id="div1">
-    <h2>{{message}}</h2>
-    <h2>{{first}} {{second}}</h2>
-    <!-- v-once 声明下面内容不会随着响应式而改变 -->
-    <h2 v-once>{{first}} {{second}}</h2>
-    <!-- v-text -->
-    <h2 v-text="message"></h2>
-    <h2 v-text="message" v-cloak></h2>
+    <div v-if="isTrue">
+        {{message}}
+        <h1>when it is true</h1>
+    </div>
+
+    <div v-else>
+        <h1>when it is false</h1>
+    </div>
+
+    <!-- v-show只会吧display属性改为t/f -->
+    <div v-show="true">show</div>
 </div>
 
 
@@ -30,8 +28,12 @@
         el: '#div1',
         data: {
             message: 'chibiken',
-            first: 'sb',
-            second: 'nihao'
+            movies: ['1', '2', '3']
+        },
+        methods: {
+            isTrue() {
+                return true;
+            }
         }
     })
 </script>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> -->
+    <script src="../vue.js" charset="utf-8"></script>
+</head>
+<body>
+
+<div id="div1">
+
+    {{count}}
+
+    <!-- .stop -->
+    <div @click="count++">
+        <!-- 阻止其他冒泡事件发生，到此click结束-->
+        <button @click.stop="count++">+</button>
+    </div>
+
+
+    <!-- .prevent -->
+    <form action="www.baidu.con">
+        <!-- 阻止默认事件，submit -->
+        <input type="submit" value="submit" @click.prevent="count++">
+    </form>
+
+
+    <!-- .any keyboard value -->
+    <input type="text" @keyup.enter="count++">
+    <input type="text" @keyup.a="count++">
+
+
+    <!-- .once -->
+    <button @click.once="count++"></button>
+</div>
+
+
+<script>
+    const app = new Vue({
+        el: '#div1',
+        data: {
+            message: 'chibiken',
+            movies: ['1', '2', '3'],
+            count: 0,
+        },
+    })
+</script>
+
+</body>
+</html>

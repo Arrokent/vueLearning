@@ -5,33 +5,34 @@
     <title>Title</title>
     <!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> -->
     <script src="../vue.js" charset="utf-8"></script>
-
-    <style>
-        [v-cloak] {
-            display: none;
-        }
-    </style>
 </head>
 <body>
 
 <div id="div1">
-    <h2>{{message}}</h2>
-    <h2>{{first}} {{second}}</h2>
-    <!-- v-once 声明下面内容不会随着响应式而改变 -->
-    <h2 v-once>{{first}} {{second}}</h2>
-    <!-- v-text -->
-    <h2 v-text="message"></h2>
-    <h2 v-text="message" v-cloak></h2>
+
+    {{message}}
+
+
 </div>
 
 
 <script>
+    // push
+    // pop
+    // shift
+    // unshift
+    // splice
+    // para 1: 位置
+    // para 2: 删除几个元素，替换哪几个参数
+    // para 3: 要插入的元素
+
+    // sort
+    // reverse
     const app = new Vue({
         el: '#div1',
         data: {
             message: 'chibiken',
-            first: 'sb',
-            second: 'nihao'
+            movies: ['1', '2', '3']
         }
     })
 </script>
