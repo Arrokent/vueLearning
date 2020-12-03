@@ -15,38 +15,45 @@
 
 <div class="container">
 
-    <div id="app">
+    <div id="app" >
 
+        <div v-if="isEmpty">
         <table class="table table-hover">
             <thead>
             <tr>
-                <th>书籍名称</th>
-                <th>出版日期</th>
-                <th>价格</th>
-                <th>购买数量</th>
-                <th>操作</th>
+                <th class="col-md-2">书籍编号</th>
+                <th class="col-md-3">书籍名称</th>
+                <th class="col-md-2">出版日期</th>
+                <th class="col-md-2">价格</th>
+                <th class="col-md-2">购买数量</th>
+                <th class="col-md-2">操作</th>
             </tr>
             </thead>
 
             <tbody>
-
             <tr v-for="(book,index) in books">
                 <td>{{book.id}}</td>
                 <td>{{book.name}}</td>
                 <td>{{book.data}}</td>
                 <td>{{book.price | showPrice}}</td>
                 <td>
-                    <button @click="countDecrease(index)">-</button>
+                    <button @click="countDecrease(index)" class="btn">-</button>
                     {{book.count}}
-                    <button @click="countIncrease(index)">+</button>
+                    <button @click="countIncrease(index)" class="btn">+</button>
                 </td>
                 <td>
-                    <button @click="remove(index)">移除</button>
+                    <button @click="remove(index)" class="btn">移除</button>
                 </td>
             </tr>
             </tbody>
         </table>
 
+            <h4>总价: {{totalPrice|showPrice}}</h4>
+        </div>
+
+        <div v-else>
+            <h3>{{emptyMessage}}</h3>
+        </div>
     </div>
 
 </div>

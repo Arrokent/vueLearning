@@ -1,7 +1,7 @@
 const app = new Vue({
     el: '#app',
     data: {
-        message: 'Chibiken',
+        author: 'Chibiken',
         books: [
             {
                 id: 1,
@@ -31,18 +31,30 @@ const app = new Vue({
                 price: 39.00,
                 count: 1
             },
-        ]
+        ],
+        emptyMessage: '购物车为空'
+    },
+    computed: {
+        isEmpty() {
+            return this.books.length;
+        },
+        totalPrice() {
+            let res = 0;
+            for (let book of this.books)
+                res += book.price * book.count;
+            return res;
+        }
     },
     methods: {
         countIncrease(index) {
             this.books[index].count++;
         },
         countDecrease(index) {
-            if(!--this.books[index].count)
+            if (!--this.books[index].count)
                 this.remove(index);
         },
         remove(index) {
-
+            this.books.splice(index, 1);
         }
     },
     filters: {
