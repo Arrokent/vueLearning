@@ -2,6 +2,7 @@ const app = new Vue({
     el: '#app',
     data: {
         author: 'Chibiken',
+        goodsAttributes: ['书籍编号','书籍名称', '出版日期', '价格', '购买数量', '操作'],
         books: [
             {
                 id: 1,

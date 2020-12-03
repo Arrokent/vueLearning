@@ -19,8 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae84ee48-9b18-4bdd-8eca-4529231b5998" name="Default Changelist" comment="书籍购物车项目">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ae84ee48-9b18-4bdd-8eca-4529231b5998" name="Default Changelist" comment="书籍购物车项目over">
       <change beforePath="$PROJECT_DIR$/项目/书籍购物车/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/项目/书籍购物车/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/项目/书籍购物车/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/项目/书籍购物车/main.js" afterDir="false" />
     </list>
@@ -79,7 +78,7 @@
       <workItem from="1606529883309" duration="15653000" />
       <workItem from="1606573833120" duration="7722000" />
       <workItem from="1606913994853" duration="11609000" />
-      <workItem from="1607011086594" duration="735000" />
+      <workItem from="1607011086594" duration="1310000" />
     </task>
     <task id="LOCAL-00001" summary="40小结之前的内容学完了">
       <created>1606830203390</created>
@@ -95,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607010031345</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="书籍购物车项目over">
+      <created>1607012110420</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607012110420</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,7 +122,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="40小结之前的内容学完了" />
     <MESSAGE value="书籍购物车项目" />
-    <option name="LAST_COMMIT_MESSAGE" value="书籍购物车项目" />
+    <MESSAGE value="书籍购物车项目over" />
+    <option name="LAST_COMMIT_MESSAGE" value="书籍购物车项目over" />
   </component>
   <component name="WindowStateProjectService">
     <state x="446" y="268" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606827108565">
@@ -144,9 +151,9 @@
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1606531437922" />
     <state x="35" y="94" key="SettingsEditor/0.25.1440.875@0.25.1440.875" timestamp="1607010067825" />
-    <state x="320" y="199" key="Vcs.Push.Dialog.v2" timestamp="1606830390811">
+    <state x="320" y="199" key="Vcs.Push.Dialog.v2" timestamp="1607012125345">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state x="320" y="199" key="Vcs.Push.Dialog.v2/0.25.1440.875@0.25.1440.875" timestamp="1606830390811" />
+    <state x="320" y="199" key="Vcs.Push.Dialog.v2/0.25.1440.875@0.25.1440.875" timestamp="1607012125345" />
   </component>
 </project>
