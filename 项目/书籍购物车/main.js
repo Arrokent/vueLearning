@@ -40,10 +40,9 @@ const app = new Vue({
             return this.books.length;
         },
         totalPrice() {
-            let res = 0;
-            for (let book of this.books)
-                res += book.price * book.count;
-            return res;
+            return this.books.reduce(function (preValue, book) {
+                return preValue + book.price * book.count;
+            }, 0);
         }
     },
     methods: {
