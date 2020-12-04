@@ -19,10 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae84ee48-9b18-4bdd-8eca-4529231b5998" name="Default Changelist" comment="书籍购物车项目over">
-      <change beforePath="$PROJECT_DIR$/项目/书籍购物车/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/项目/书籍购物车/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/项目/书籍购物车/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/项目/书籍购物车/main.js" afterDir="false" />
-    </list>
+    <list default="true" id="ae84ee48-9b18-4bdd-8eca-4529231b5998" name="Default Changelist" comment="书籍购物车项目1.1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,7 +75,7 @@
       <workItem from="1606529883309" duration="15653000" />
       <workItem from="1606573833120" duration="7722000" />
       <workItem from="1606913994853" duration="11609000" />
-      <workItem from="1607011086594" duration="1310000" />
+      <workItem from="1607011086594" duration="2058000" />
     </task>
     <task id="LOCAL-00001" summary="40小结之前的内容学完了">
       <created>1606830203390</created>
@@ -101,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607012110420</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="书籍购物车项目1.1">
+      <created>1607012553885</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1607012553885</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,7 +127,8 @@
     <MESSAGE value="40小结之前的内容学完了" />
     <MESSAGE value="书籍购物车项目" />
     <MESSAGE value="书籍购物车项目over" />
-    <option name="LAST_COMMIT_MESSAGE" value="书籍购物车项目over" />
+    <MESSAGE value="书籍购物车项目1.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="书籍购物车项目1.1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="446" y="268" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606827108565">
