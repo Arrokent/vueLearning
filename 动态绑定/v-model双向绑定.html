@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../vue.js" charset="utf-8"></script>
+</head>
+<body>
+
+<div id="app">
+
+    <input type="text" v-model="message">
+    <p>yours input: {{message}}</p>
+
+    <label for="male">
+        <input type="radio" id="male" v-model="sex" value="male">boy
+    </label>
+    <label for="female">
+        <input type="radio" id="female" v-model="sex" value="female">girl
+    </label>
+    <p>yours sex: {{sex}}</p>
+
+    <label for="agree">
+        <input type="radio" id="agree" v-model="agree">agree
+    </label>
+    <p>{{showAgree}}</p>
+    <button :disabled="!agree">next</button>
+    <br>
+
+    <label v-for="character in characters" :for="character">
+        <!-- 一定要记住，凡事非写死的东西，一律要绑定vue中的data，v-bind，或者: -->
+        <input type="checkbox" :value="character" :id="character" v-model="selectedCharacters">{{character}}
+    </label>
+    <p>{{showCharacters}}</p>
+
+    <!-- select is same, using v-model -->
+</div>
+
+
+<script>
+    const app = new Vue({
+        el: '#app',
+        data: {
+            message: 'chibiken',
+            sex: 'male',
+            agree: false,
+            characters: ['迪卢克', '刻晴', '莫娜', '琴', '七七', '温蒂', '可丽', '公子', '钟离'],
+            selectedCharacters: [],
+
+        },
+        computed: {
+            showAgree() {
+                if (this.agree)
+                    return '同意';
+                else
+                    return '不同意';
+            },
+            showCharacters() {
+                return this.selectedCharacters.reduce(function (preValue, c) {
+                    return preValue + ' ' + c;
+                }, '')
+            }
+        }
+    })
+</script>
+
+</body>
+</html>
