@@ -2,7 +2,8 @@
 ### 插值操作:Mustache语法
 vue的基本操作，获取vue中data属性的语法，双大括号——{{}}
 ### 动态绑定:v-bind
-v-bind:href="link"，link为data中的属性，v-bind为html元素绑定属性，包括类，id，style.v-bind的简写格式为一个:
+v-bind:href="link"，link为data中的属性，v-bind为html元素绑定属性，包括类，id，style.v-bind的简写格式为一个:  
+v-model:双向绑定input type="radio" id="male" v-model="sex" value="male"
 ### 循环遍历:v-for
 循环语法，v-for="(items, index) in the movies", movies在data中定义为数组
 ### 条件判断:v-if  

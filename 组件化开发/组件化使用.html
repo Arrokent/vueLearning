@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../vue.js" charset="utf-8"></script>
+</head>
+<body>
+
+<div id="app">
+
+    <!-- 3. 使用组件 -->
+    <test></test>
+
+</div>
+
+
+<script>
+
+    // 1. 创建组件构造器对象
+    const cpnC = Vue.extend({
+        // 模版
+        template: `
+            <div>
+                <h2>This is title</h2>
+                <p>This is content</p>
+            </div>
+        `
+    });
+
+    // 2. 注册组件, 第一个参数为使用是的名字, 第二个参数为构造器对象
+    // 此为全局组件, 可以在多个Vue实例钟使用
+    // Vue.component('testCpn', cpnC);
+
+    const app = new Vue({
+        el: '#app',
+        data: {
+            message: 'chibiken',
+        },
+        // 局部组件
+        components: {
+            test: cpnC,
+        },
+    })
+</script>
+
+</body>
+</html>
