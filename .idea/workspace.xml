@@ -19,10 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae84ee48-9b18-4bdd-8eca-4529231b5998" name="Default Changelist" comment="组件的数据问题，data(), 和父子组件">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/组件化开发/组件通信-父传子.html" beforeDir="false" afterPath="$PROJECT_DIR$/组件化开发/组件通信-父传子.html" afterDir="false" />
-    </list>
+    <list default="true" id="ae84ee48-9b18-4bdd-8eca-4529231b5998" name="Default Changelist" comment="父传子" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,7 +76,7 @@
       <workItem from="1606573833120" duration="7722000" />
       <workItem from="1606913994853" duration="11609000" />
       <workItem from="1607011086594" duration="12434000" />
-      <workItem from="1607053036525" duration="10450000" />
+      <workItem from="1607053036525" duration="10624000" />
     </task>
     <task id="LOCAL-00001" summary="40小结之前的内容学完了">
       <created>1606830203390</created>
@@ -165,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607165921265</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="父传子">
+      <created>1607167213392</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1607167213392</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,7 +196,8 @@
     <MESSAGE value="v-model学完了" />
     <MESSAGE value="组件的基本使用" />
     <MESSAGE value="组件的数据问题，data(), 和父子组件" />
-    <option name="LAST_COMMIT_MESSAGE" value="组件的数据问题，data(), 和父子组件" />
+    <MESSAGE value="父传子" />
+    <option name="LAST_COMMIT_MESSAGE" value="父传子" />
   </component>
   <component name="WindowStateProjectService">
     <state x="509" y="245" key="#Web_Browsers" timestamp="1607043852596">
