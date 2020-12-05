@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../vue.js" charset="utf-8"></script>
+</head>
+<body>
+
+<div id="app">
+
+    <cpn1></cpn1>
+    <cpn1></cpn1>
+    <cpn1></cpn1>
+
+</div>
+
+<script>
+
+    // 不能访问Vue中的data, {{message}}
+    Vue.component('cpn1', {
+        template: `
+            <div>
+                <h2>{{ title }}</h2>
+                <p>{{ content }}</p>
+                <p>{{ count }}</p>
+
+                <button @click="countIncrease">+</button>
+                <button @click="countDecrease">-</button>
+
+            </div>
+        `,
+        // data: {
+        //     title: 'TITLE',
+        //     content: 'CONTENT',
+        //     count: 1,
+        // }
+        // ,
+
+        // 为什么data是个函数而不是属性
+        // 每复用一次组件返回的都是一个全新的对象，避免访问到同一个数据对象
+        data() {
+            return {
+                title: 'TITLE',
+                content: 'CONTENT',
+                count: 1,
+            }
+        },
+        methods: {
+            countIncrease() {
+                this.count++;
+            },
+            countDecrease() {
+                this.count--;
+            },
+        }
+    });
+
+    const app = new Vue({
+        el: '#app',
+        data: {
+            message: 'chibiken',
+        },
+    })
+</script>
+
+</body>
+</html>
