@@ -19,12 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae84ee48-9b18-4bdd-8eca-4529231b5998" name="Default Changelist" comment="书籍购物车项目1.2 —— es5函数reduce使用">
-      <change afterPath="$PROJECT_DIR$/动态绑定/v-model修饰符.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/动态绑定/v-model双向绑定.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
-    </list>
+    <list default="true" id="ae84ee48-9b18-4bdd-8eca-4529231b5998" name="Default Changelist" comment="v-model学完了" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,6 +76,7 @@
       <workItem from="1606573833120" duration="7722000" />
       <workItem from="1606913994853" duration="11609000" />
       <workItem from="1607011086594" duration="12434000" />
+      <workItem from="1607053036525" duration="734000" />
     </task>
     <task id="LOCAL-00001" summary="40小结之前的内容学完了">
       <created>1606830203390</created>
@@ -124,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607045771783</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="v-model学完了">
+      <created>1607053166752</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1607053166752</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,7 +151,8 @@
     <MESSAGE value="书籍购物车项目over" />
     <MESSAGE value="书籍购物车项目1.1" />
     <MESSAGE value="书籍购物车项目1.2 —— es5函数reduce使用" />
-    <option name="LAST_COMMIT_MESSAGE" value="书籍购物车项目1.2 —— es5函数reduce使用" />
+    <MESSAGE value="v-model学完了" />
+    <option name="LAST_COMMIT_MESSAGE" value="v-model学完了" />
   </component>
   <component name="WindowStateProjectService">
     <state x="509" y="245" key="#Web_Browsers" timestamp="1607043852596">
