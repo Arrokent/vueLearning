@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../vue.js" charset="utf-8"></script>
+</head>
+<body>
+
+<div id="app">
+    <cpn ref="cpn1"></cpn>
+    <cpn ref="cpn2"></cpn>
+    <cpn ref="cpn3"></cpn>
+</div>
+
+</body>
+
+<template id="cpn">
+    <div>
+        <h1>This is title</h1>
+        <p>This is content</p>
+        <button @click="btnClick">btn</button>
+    </div>
+</template>
+
+<script>
+    const cpn = {
+        template: "#cpn",
+        data() {
+            return {
+                name: 'cpn data name',
+                age: 'cpn data age',
+            }
+        },
+        methods: {
+            btnClick() {
+                console.log(this.$parent);
+            }
+        }
+    }
+
+    const app = new Vue({
+        el: '#app',
+        data: {
+            info: {
+                name: 'chibiken',
+                age: '20',
+                height: '180',
+            }
+        },
+        components: {
+            cpn,
+        }
+    })
+</script>
+</html>

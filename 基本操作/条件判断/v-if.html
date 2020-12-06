@@ -4,35 +4,36 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> -->
-    <script src="../vue.js" charset="utf-8"></script>
+    <script src="../../vue.js" charset="utf-8"></script>
 </head>
 <body>
 
 <div id="div1">
+    <div v-if="isTrue">
+        {{message}}
+        <h1>when it is true</h1>
+    </div>
 
-    {{message}}
+    <div v-else>
+        <h1>when it is false</h1>
+    </div>
 
-
+    <!-- v-show只会吧display属性改为t/f -->
+    <div v-show="true">show</div>
 </div>
 
 
 <script>
-    // push
-    // pop
-    // shift
-    // unshift
-    // splice
-    // para 1: 位置
-    // para 2: 删除几个元素，替换哪几个参数
-    // para 3: 要插入的元素
-
-    // sort
-    // reverse
     const app = new Vue({
         el: '#div1',
         data: {
             message: 'chibiken',
             movies: ['1', '2', '3']
+        },
+        methods: {
+            isTrue() {
+                return true;
+            }
         }
     })
 </script>

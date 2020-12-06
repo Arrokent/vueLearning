@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../vue.js" charset="utf-8"></script>
+</head>
+<body>
+
+<div id="app">
+    <cpn ref="cpn1"></cpn>
+    <cpn ref="cpn2"></cpn>
+    <cpn ref="cpn3"></cpn>
+
+    <button @click="btnClick">btn</button>
+</div>
+
+</body>
+
+<template id="cpn">
+    <div>
+        <h1>This is title</h1>
+        <p>This is content</p>
+    </div>
+</template>
+
+<script>
+    const cpn = {
+        template: "#cpn",
+        data() {
+            return {
+                name: 'cpn data name',
+                age: 'cpn data age',
+            }
+        },
+        methods: {
+            showMessage() {
+                console.log("cpn mes");
+            },
+        }
+    }
+
+    const app = new Vue({
+        el: '#app',
+        data: {
+            info: {
+                name: 'chibiken',
+                age: '20',
+                height: '180',
+            }
+        },
+        methods: {
+            btnClick() {
+                console.log(this.$children);
+                this.$children[0].showMessage();
+                // 而$children不常用, 用$refs
+
+                console.log(this.$refs);
+                console.log(this.$refs.cpn2.name);
+            }
+        },
+        components: {
+            cpn,
+        }
+    })
+</script>
+</html>
