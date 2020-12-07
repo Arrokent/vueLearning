@@ -19,10 +19,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae84ee48-9b18-4bdd-8eca-4529231b5998" name="Default Changelist" comment="插条，拓展">
-      <change afterPath="$PROJECT_DIR$/前端模块化/ES6模块化/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/前端模块化/ES6模块化/js1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/前端模块化/ES6模块化/js2.js" afterDir="false" />
+    <list default="true" id="ae84ee48-9b18-4bdd-8eca-4529231b5998" name="Default Changelist" comment="模块化">
+      <change afterPath="$PROJECT_DIR$/前端模块化/webpack基本使用/dist/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/前端模块化/webpack基本使用/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/前端模块化/webpack基本使用/src/js1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/前端模块化/webpack基本使用/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/前端模块化/webpack配置文件/dist/bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/前端模块化/webpack配置文件/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/前端模块化/webpack配置文件/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/前端模块化/webpack配置文件/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/前端模块化/webpack配置文件/src/js1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/前端模块化/webpack配置文件/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/前端模块化/webpack配置文件/webpack.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,24 +58,27 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/项目/书籍购物车" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/前端模块化/webpack配置文件" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/项目/书籍购物车" />
-      <recent name="D:\web workplace\vueLearning" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/前端模块化/webpack/src" />
       <recent name="$PROJECT_DIR$/组件化开发/拓展插条" />
       <recent name="$PROJECT_DIR$/组件化开发" />
       <recent name="$PROJECT_DIR$/组件访问" />
       <recent name="$PROJECT_DIR$/基本操作" />
-      <recent name="$PROJECT_DIR$/组件化开发/父子组件" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/前端模块化/webpack配置文件" />
+      <recent name="$PROJECT_DIR$/项目/书籍购物车" />
+      <recent name="D:\web workplace\vueLearning" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -82,7 +93,8 @@
       <workItem from="1606573833120" duration="7722000" />
       <workItem from="1606913994853" duration="11609000" />
       <workItem from="1607011086594" duration="12434000" />
-      <workItem from="1607053036525" duration="25903000" />
+      <workItem from="1607053036525" duration="29897000" />
+      <workItem from="1607347456835" duration="5469000" />
     </task>
     <task id="LOCAL-00001" summary="40小结之前的内容学完了">
       <created>1606830203390</created>
@@ -196,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607310932349</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="模块化">
+      <created>1607317859406</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1607317859406</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,6 +234,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="40小结之前的内容学完了" />
     <MESSAGE value="书籍购物车项目" />
     <MESSAGE value="书籍购物车项目over" />
@@ -226,7 +246,8 @@
     <MESSAGE value="父传子" />
     <MESSAGE value="父子间通信 和访问zujian" />
     <MESSAGE value="插条，拓展" />
-    <option name="LAST_COMMIT_MESSAGE" value="插条，拓展" />
+    <MESSAGE value="模块化" />
+    <option name="LAST_COMMIT_MESSAGE" value="模块化" />
   </component>
   <component name="WindowStateProjectService">
     <state x="509" y="245" key="#Web_Browsers" timestamp="1607043852596">
@@ -260,9 +281,14 @@
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1606531437922" />
     <state x="35" y="94" key="SettingsEditor/0.25.1440.875/1440.25.1116.731@0.25.1440.875" timestamp="1607043845748" />
     <state x="35" y="94" key="SettingsEditor/0.25.1440.875@0.25.1440.875" timestamp="1607010067825" />
-    <state x="320" y="199" key="Vcs.Push.Dialog.v2" timestamp="1607012125345">
+    <state x="320" y="199" key="Vcs.Push.Dialog.v2" timestamp="1607317880622">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
+    <state x="320" y="199" key="Vcs.Push.Dialog.v2/0.25.1440.875/1440.25.1194.731@0.25.1440.875" timestamp="1607317880622" />
     <state x="320" y="199" key="Vcs.Push.Dialog.v2/0.25.1440.875@0.25.1440.875" timestamp="1607012125345" />
+    <state x="475" y="365" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1607326755865">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="475" y="365" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.25.1440.875@0.25.1440.875" timestamp="1607326755865" />
   </component>
 </project>
