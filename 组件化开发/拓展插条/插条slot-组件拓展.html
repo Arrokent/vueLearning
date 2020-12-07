@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../vue.js" charset="utf-8"></script>
+</head>
+<body>
+
+<div id="app">
+
+    <!-- 默认值 -->
+    <cpn></cpn>
+    <!-- button会占据slot标签 -->
+    <cpn><button>btn</button></cpn>
+    <cpn><p>occupy slot here</p></cpn>
+
+    <!-- 有多个标签会一起替换 -->
+    <cpn>
+        <p>occupy slot here</p>
+        <div>I'm a div</div>
+        <h4>I.m a header</h4>
+    </cpn>
+
+
+</div>
+
+<!-- slot标签 -->
+<template id="cpn">
+    <div>
+        <h2>This is title</h2>
+        <p>This is content</p>
+        <!-- 传入默认值btn -->
+        <slot><button>btn</button></slot>
+    </div>
+</template>
+
+<script>
+
+    const cpn = {
+        template: "#cpn",
+    }
+
+    const app = new Vue({
+        el: '#app',
+        data: {
+            message: 'chibiken',
+        },
+        components: {
+            cpn
+        },
+    })
+
+</script>
+
+</body>
+</html>

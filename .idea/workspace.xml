@@ -19,29 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae84ee48-9b18-4bdd-8eca-4529231b5998" name="Default Changelist" comment="父传子">
-      <change afterPath="$PROJECT_DIR$/组件化开发/插条slot-组件拓展.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/组件化开发/父子组件与通信/子传父.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/组件化开发/父子组件与通信/父传子复习.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/组件化开发/组件访问/子访问父.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/组件化开发/组件访问/父访问子.html" afterDir="false" />
+    <list default="true" id="ae84ee48-9b18-4bdd-8eca-4529231b5998" name="Default Changelist" comment="父子间通信 和访问zujian">
+      <change afterPath="$PROJECT_DIR$/组件化开发/拓展插条/具名插条.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/组件化开发/拓展插条/插条slot-组件拓展.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/事件监听/v-on.html" beforeDir="false" afterPath="$PROJECT_DIR$/基本操作/事件监听/v-on.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/事件监听/v-on修饰符.html" beforeDir="false" afterPath="$PROJECT_DIR$/基本操作/事件监听/v-on修饰符.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/动态绑定/v-bind.html" beforeDir="false" afterPath="$PROJECT_DIR$/基本操作/动态绑定/v-bind.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/动态绑定/v-for小案例.html" beforeDir="false" afterPath="$PROJECT_DIR$/基本操作/动态绑定/v-for小案例.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/动态绑定/v-model修饰符.html" beforeDir="false" afterPath="$PROJECT_DIR$/基本操作/动态绑定/v-model修饰符.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/动态绑定/v-model双向绑定.html" beforeDir="false" afterPath="$PROJECT_DIR$/基本操作/动态绑定/v-model双向绑定.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/循环遍历/functions.html" beforeDir="false" afterPath="$PROJECT_DIR$/基本操作/循环遍历/functions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/循环遍历/v-for.html" beforeDir="false" afterPath="$PROJECT_DIR$/基本操作/循环遍历/v-for.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/插值操作/Mustache.html" beforeDir="false" afterPath="$PROJECT_DIR$/基本操作/插值操作/Mustache.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/条件判断/v-if.html" beforeDir="false" afterPath="$PROJECT_DIR$/基本操作/条件判断/v-if.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/组件化开发/父子组件.html" beforeDir="false" afterPath="$PROJECT_DIR$/组件化开发/父子组件与通信/父子组件.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/组件化开发/组件中的数据.html" beforeDir="false" afterPath="$PROJECT_DIR$/组件化开发/基本语法/组件中的数据.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/组件化开发/组件化使用.html" beforeDir="false" afterPath="$PROJECT_DIR$/组件化开发/基本语法/组件化使用.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/组件化开发/组件通信-父传子.html" beforeDir="false" afterPath="$PROJECT_DIR$/组件化开发/父子组件与通信/组件通信-父传子.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/组件化开发/语法糖.html" beforeDir="false" afterPath="$PROJECT_DIR$/组件化开发/基本语法/语法糖.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/计算属性/computed.html" beforeDir="false" afterPath="$PROJECT_DIR$/基本操作/计算属性/computed.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/组件化开发/父子组件与通信/子传父.html" beforeDir="false" afterPath="$PROJECT_DIR$/组件化开发/父子组件与通信/组件通信-子传父.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,11 +63,11 @@
       <recent name="D:\web workplace\vueLearning" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/组件化开发/拓展插条" />
       <recent name="$PROJECT_DIR$/组件化开发" />
       <recent name="$PROJECT_DIR$/组件访问" />
       <recent name="$PROJECT_DIR$/基本操作" />
       <recent name="$PROJECT_DIR$/组件化开发/父子组件" />
-      <recent name="$PROJECT_DIR$/组件化开发/基本语法" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -100,7 +82,7 @@
       <workItem from="1606573833120" duration="7722000" />
       <workItem from="1606913994853" duration="11609000" />
       <workItem from="1607011086594" duration="12434000" />
-      <workItem from="1607053036525" duration="17953000" />
+      <workItem from="1607053036525" duration="22433000" />
     </task>
     <task id="LOCAL-00001" summary="40小结之前的内容学完了">
       <created>1606830203390</created>
@@ -200,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607172413478</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="父子间通信 和访问zujian">
+      <created>1607233898990</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1607233898990</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,7 +217,8 @@
     <MESSAGE value="组件的基本使用" />
     <MESSAGE value="组件的数据问题，data(), 和父子组件" />
     <MESSAGE value="父传子" />
-    <option name="LAST_COMMIT_MESSAGE" value="父传子" />
+    <MESSAGE value="父子间通信 和访问zujian" />
+    <option name="LAST_COMMIT_MESSAGE" value="父子间通信 和访问zujian" />
   </component>
   <component name="WindowStateProjectService">
     <state x="509" y="245" key="#Web_Browsers" timestamp="1607043852596">
