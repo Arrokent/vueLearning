@@ -4,7 +4,9 @@ module.exports = {
     entry: './src/main.js',
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: 'bundle.js'
+        filename: 'bundle.js',
+        // 所有url都会拼接这个字符串
+        publicPath: 'dist/'
     },
 
     // first install css loader
@@ -18,8 +20,21 @@ module.exports = {
                 test: /\.css$/,
                 // css-loader只负责加载编译css
                 // style-loader负责将css渲染到DOM
-                use: [ 'style-loader', 'css-loader' ]
+                use: ['style-loader', 'css-loader']
+            },
+
+            // the second module -- less
+            {
+                test: /\.less$/,
+                use: [{
+                    loader: "style-loader" // creates style nodes from JS strings
+                }, {
+                    loader: "css-loader" // translates CSS into CommonJS
+                }, {
+                    loader: "less-loader" // compiles Less to CSS
+                }]
             }
         ]
+
     },
 }

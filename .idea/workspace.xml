@@ -19,17 +19,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae84ee48-9b18-4bdd-8eca-4529231b5998" name="Default Changelist" comment="webpack的使用，配置">
-      <change afterPath="$PROJECT_DIR$/前端模块化/webpack-loader/dist/bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/前端模块化/webpack-loader/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/前端模块化/webpack-loader/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/前端模块化/webpack-loader/src/css/bodyStyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/前端模块化/webpack-loader/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/前端模块化/webpack-loader/src/js/functions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/前端模块化/webpack-loader/src/js/info.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/前端模块化/webpack-loader/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/前端模块化/webpack-loader/webpack.config.js" afterDir="false" />
+    <list default="true" id="ae84ee48-9b18-4bdd-8eca-4529231b5998" name="Default Changelist" comment="webpack的loader使用，css 2 js">
+      <change afterPath="$PROJECT_DIR$/前端模块化/webpack-loader/src/css/speicalStyle.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/前端模块化/webpack-loader/dist/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/前端模块化/webpack-loader/dist/bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/前端模块化/webpack-loader/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/前端模块化/webpack-loader/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/前端模块化/webpack-loader/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/前端模块化/webpack-loader/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/前端模块化/webpack-loader/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/前端模块化/webpack-loader/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/前端模块化/webpack-loader/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/前端模块化/webpack-loader/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/前端模块化/webpack-loader/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/前端模块化/webpack-loader/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +40,7 @@
         <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="Less File" />
       </list>
     </option>
   </component>
@@ -62,7 +61,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/前端模块化" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="list.type.of.created.stylesheet" value="Less" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -95,7 +94,7 @@
       <workItem from="1606913994853" duration="11609000" />
       <workItem from="1607011086594" duration="12434000" />
       <workItem from="1607053036525" duration="29897000" />
-      <workItem from="1607347456835" duration="11797000" />
+      <workItem from="1607347456835" duration="13394000" />
     </task>
     <task id="LOCAL-00001" summary="40小结之前的内容学完了">
       <created>1606830203390</created>
@@ -223,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607353453243</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="webpack的loader使用，css 2 js">
+      <created>1607396146825</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1607396146825</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,13 +262,18 @@
     <MESSAGE value="插条，拓展" />
     <MESSAGE value="模块化" />
     <MESSAGE value="webpack的使用，配置" />
-    <option name="LAST_COMMIT_MESSAGE" value="webpack的使用，配置" />
+    <MESSAGE value="webpack的loader使用，css 2 js" />
+    <option name="LAST_COMMIT_MESSAGE" value="webpack的loader使用，css 2 js" />
   </component>
   <component name="WindowStateProjectService">
     <state x="509" y="245" key="#Web_Browsers" timestamp="1607043852596">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="509" y="245" key="#Web_Browsers/0.25.1440.875/1440.25.1116.731@0.25.1440.875" timestamp="1607043852596" />
+    <state x="184" y="121" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607396947649">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="184" y="121" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.875/1440.25.1194.731@0.25.1440.875" timestamp="1607396947649" />
     <state x="446" y="268" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606827108565">
       <screen x="0" y="25" width="1440" height="875" />
     </state>

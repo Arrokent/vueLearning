@@ -10,3 +10,6 @@ console.log("20 * 30 = " +mul(20, 30));
 require('./css/bodyStyle.css');
 // must use css loader
 // to change the css into js
+
+// rely on less document
+require('./css/speicalStyle.less')

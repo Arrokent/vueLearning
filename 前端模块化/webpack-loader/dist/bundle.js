@@ -60,85 +60,11 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 0);
+/******/ 	return __webpack_require__(__webpack_require__.s = 2);
 /******/ })
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__js_info_js__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__js_functions__ = __webpack_require__(2);
-// ES6 module
-
-
-
-console.log("info:" +__WEBPACK_IMPORTED_MODULE_0__js_info_js__["b" /* name */], __WEBPACK_IMPORTED_MODULE_0__js_info_js__["a" /* age */]);
-console.log("20 + 30 = " +Object(__WEBPACK_IMPORTED_MODULE_1__js_functions__["b" /* sum */])(20, 30));
-console.log("20 * 30 = " +Object(__WEBPACK_IMPORTED_MODULE_1__js_functions__["a" /* mul */])(20, 30));
-
-// error import css
-__webpack_require__(3);
-// must use css loader
-// to change the css into js
-
-/***/ }),
-/* 1 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return name; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return age; });
-let name = 'chibiken';
-let age =  20;
-
-
-
-
-
-/***/ }),
-/* 2 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (immutable) */ __webpack_exports__["b"] = sum;
-/* harmony export (immutable) */ __webpack_exports__["a"] = mul;
-function sum(num1, num2) {
-    return num1 + num2;
-}
-
-function mul(num1, num2) {
-    return num1 * num2;
-}
-
-/***/ }),
-/* 3 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var api = __webpack_require__(4);
-            var content = __webpack_require__(5);
-
-            content = content.__esModule ? content.default : content;
-
-            if (typeof content === 'string') {
-              content = [[module.i, content, '']];
-            }
-
-var options = {};
-
-options.insert = "head";
-options.singleton = false;
-
-var update = api(content, options);
-
-
-
-module.exports = content.locals || {};
-
-/***/ }),
-/* 4 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -413,20 +339,7 @@ module.exports = function (list, options) {
 };
 
 /***/ }),
-/* 5 */
-/***/ (function(module, exports, __webpack_require__) {
-
-// Imports
-var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(6);
-exports = ___CSS_LOADER_API_IMPORT___(false);
-// Module
-exports.push([module.i, "body {\n    background-color: rebeccapurple;\n}\n\nh1 {\n    color: red;\n}", ""]);
-// Exports
-module.exports = exports;
-
-
-/***/ }),
-/* 6 */
+/* 1 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -524,6 +437,133 @@ function toComment(sourceMap) {
   var data = "sourceMappingURL=data:application/json;charset=utf-8;base64,".concat(base64);
   return "/*# ".concat(data, " */");
 }
+
+/***/ }),
+/* 2 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__js_info_js__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__js_functions__ = __webpack_require__(4);
+// ES6 module
+
+
+
+console.log("info:" +__WEBPACK_IMPORTED_MODULE_0__js_info_js__["b" /* name */], __WEBPACK_IMPORTED_MODULE_0__js_info_js__["a" /* age */]);
+console.log("20 + 30 = " +Object(__WEBPACK_IMPORTED_MODULE_1__js_functions__["b" /* sum */])(20, 30));
+console.log("20 * 30 = " +Object(__WEBPACK_IMPORTED_MODULE_1__js_functions__["a" /* mul */])(20, 30));
+
+// error import css
+__webpack_require__(5);
+// must use css loader
+// to change the css into js
+
+// rely on less document
+__webpack_require__(7)
+
+/***/ }),
+/* 3 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return name; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return age; });
+let name = 'chibiken';
+let age =  20;
+
+
+
+
+
+/***/ }),
+/* 4 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (immutable) */ __webpack_exports__["b"] = sum;
+/* harmony export (immutable) */ __webpack_exports__["a"] = mul;
+function sum(num1, num2) {
+    return num1 + num2;
+}
+
+function mul(num1, num2) {
+    return num1 * num2;
+}
+
+/***/ }),
+/* 5 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(0);
+            var content = __webpack_require__(6);
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+
+
+module.exports = content.locals || {};
+
+/***/ }),
+/* 6 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(1);
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, "body {\n    background-color: rebeccapurple;\n}\n\nh1 {\n    color: red;\n}", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+/* 7 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(0);
+            var content = __webpack_require__(8);
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+
+
+module.exports = content.locals || {};
+
+/***/ }),
+/* 8 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(1);
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, "p {\n  font-size: 50px;\n  color: orange;\n}\n", ""]);
+// Exports
+module.exports = exports;
+
 
 /***/ })
 /******/ ]);
