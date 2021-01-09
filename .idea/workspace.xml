@@ -19,16 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae84ee48-9b18-4bdd-8eca-4529231b5998" name="Default Changelist" comment="webpack的loader使用，css 2 js">
-      <change afterPath="$PROJECT_DIR$/前端模块化/webpack-loader/src/css/speicalStyle.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端模块化/webpack-loader/dist/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/前端模块化/webpack-loader/dist/bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端模块化/webpack-loader/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/前端模块化/webpack-loader/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端模块化/webpack-loader/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/前端模块化/webpack-loader/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端模块化/webpack-loader/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/前端模块化/webpack-loader/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端模块化/webpack-loader/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/前端模块化/webpack-loader/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/前端模块化/webpack-loader/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/前端模块化/webpack-loader/webpack.config.js" afterDir="false" />
-    </list>
+    <list default="true" id="ae84ee48-9b18-4bdd-8eca-4529231b5998" name="Default Changelist" comment="webpack的less-loader使用" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,13 +48,15 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/前端模块化" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/基本操作/动态绑定" />
     <property name="list.type.of.created.stylesheet" value="Less" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -75,6 +68,7 @@
       <recent name="$PROJECT_DIR$/组件访问" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/基本操作/动态绑定" />
       <recent name="$PROJECT_DIR$/前端模块化" />
       <recent name="$PROJECT_DIR$/前端模块化/webpack配置文件" />
       <recent name="$PROJECT_DIR$/项目/书籍购物车" />
@@ -94,7 +88,9 @@
       <workItem from="1606913994853" duration="11609000" />
       <workItem from="1607011086594" duration="12434000" />
       <workItem from="1607053036525" duration="29897000" />
-      <workItem from="1607347456835" duration="13394000" />
+      <workItem from="1607347456835" duration="16166000" />
+      <workItem from="1607403609003" duration="3319000" />
+      <workItem from="1610012706731" duration="4996000" />
     </task>
     <task id="LOCAL-00001" summary="40小结之前的内容学完了">
       <created>1606830203390</created>
@@ -229,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607396146825</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="webpack的less-loader使用">
+      <created>1607397962029</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1607397962029</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,7 +266,8 @@
     <MESSAGE value="模块化" />
     <MESSAGE value="webpack的使用，配置" />
     <MESSAGE value="webpack的loader使用，css 2 js" />
-    <option name="LAST_COMMIT_MESSAGE" value="webpack的loader使用，css 2 js" />
+    <MESSAGE value="webpack的less-loader使用" />
+    <option name="LAST_COMMIT_MESSAGE" value="webpack的less-loader使用" />
   </component>
   <component name="WindowStateProjectService">
     <state x="509" y="245" key="#Web_Browsers" timestamp="1607043852596">
@@ -299,17 +303,21 @@
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="492" y="169" key="RollbackChangesDialog/0.25.1440.875@0.25.1440.875" timestamp="1606815097790" />
-    <state x="35" y="94" key="SettingsEditor" timestamp="1607043845748">
+    <state x="35" y="94" key="SettingsEditor" timestamp="1610202388033">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1606531437922" />
     <state x="35" y="94" key="SettingsEditor/0.25.1440.875/1440.25.1116.731@0.25.1440.875" timestamp="1607043845748" />
-    <state x="35" y="94" key="SettingsEditor/0.25.1440.875@0.25.1440.875" timestamp="1607010067825" />
+    <state x="35" y="94" key="SettingsEditor/0.25.1440.875@0.25.1440.875" timestamp="1610202388033" />
     <state x="320" y="199" key="Vcs.Push.Dialog.v2" timestamp="1607317880622">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="320" y="199" key="Vcs.Push.Dialog.v2/0.25.1440.875/1440.25.1194.731@0.25.1440.875" timestamp="1607317880622" />
     <state x="320" y="199" key="Vcs.Push.Dialog.v2/0.25.1440.875@0.25.1440.875" timestamp="1607012125345" />
+    <state x="518" y="385" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610014669769">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="518" y="385" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.875@0.25.1440.875" timestamp="1610014669769" />
     <state x="475" y="365" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1607326755865">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
