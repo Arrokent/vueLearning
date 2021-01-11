@@ -19,7 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae84ee48-9b18-4bdd-8eca-4529231b5998" name="Default Changelist" comment="webpack的less-loader使用" />
+    <list default="true" id="ae84ee48-9b18-4bdd-8eca-4529231b5998" name="Default Changelist" comment="重拾vue，加油！！">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/基本操作/事件监听/v-on修饰符.html" beforeDir="false" afterPath="$PROJECT_DIR$/基本操作/事件监听/v-on修饰符.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/基本操作/动态绑定/v-bind.html" beforeDir="false" afterPath="$PROJECT_DIR$/基本操作/动态绑定/v-bind.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/基本操作/动态绑定/v-model双向绑定.html" beforeDir="false" afterPath="$PROJECT_DIR$/基本操作/动态绑定/v-model.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/基本操作/插值操作/Mustache.html" beforeDir="false" afterPath="$PROJECT_DIR$/基本操作/插值操作/Mustache.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/基本操作/计算属性/computed.html" beforeDir="false" afterPath="$PROJECT_DIR$/基本操作/计算属性/computed.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,7 +97,7 @@
       <workItem from="1607053036525" duration="29897000" />
       <workItem from="1607347456835" duration="16166000" />
       <workItem from="1607403609003" duration="3319000" />
-      <workItem from="1610012706731" duration="4996000" />
+      <workItem from="1610012706731" duration="12000000" />
     </task>
     <task id="LOCAL-00001" summary="40小结之前的内容学完了">
       <created>1606830203390</created>
@@ -232,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607397962029</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="重拾vue，加油！！">
+      <created>1610202421880</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1610202421881</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,7 +281,8 @@
     <MESSAGE value="webpack的使用，配置" />
     <MESSAGE value="webpack的loader使用，css 2 js" />
     <MESSAGE value="webpack的less-loader使用" />
-    <option name="LAST_COMMIT_MESSAGE" value="webpack的less-loader使用" />
+    <MESSAGE value="重拾vue，加油！！" />
+    <option name="LAST_COMMIT_MESSAGE" value="重拾vue，加油！！" />
   </component>
   <component name="WindowStateProjectService">
     <state x="509" y="245" key="#Web_Browsers" timestamp="1607043852596">

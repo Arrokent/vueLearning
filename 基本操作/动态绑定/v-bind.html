@@ -15,18 +15,22 @@
 <body>
 
 <div id="div1">
+    {{message}}
     <!-- mustache绑定内容，v-bind绑定属性 -->
     <a v-bind:href="aURL">a</a>
     <!-- 简写 -->
     <a :href="aURL">b</a>
 
     <!-- 绑定class -->
+    <!-- vue语法绑定类 {类名:boolean} -->
     <h2 :class="{active: isActive}">hello</h2>
     <!-- v-on -->
     <button v-on:click="btnClick">btn</button>
 
     <!-- 绑定style -->
     <h2 :style="{fontSize: fs, color: c}">hello</h2>
+    <h2 style = "fontSize: 100px; color: darkred">hello</h2>
+
 </div>
 
 <script>
