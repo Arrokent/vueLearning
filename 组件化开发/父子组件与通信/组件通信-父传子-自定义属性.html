@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../vue.js" charset="utf-8"></script>
+</head>
+<body>
+
+<div id="app">
+
+    <!-- 将cpn中props属性的cmessage绑定为app的data，message -->
+    <!-- 本质上是为cpn这个对象增加一个属性，然后再绑定属性到data中某个值 -->
+    <cpn :cmessage="message"></cpn>
+    <!-- without bind -->
+    <cpn></cpn>
+
+</div>
+
+<template id = "cpn">
+    <div>
+        <h2>This is the son title</h2>
+        <p>This is the son content</p>
+        <p>From father cpn: {{cmessage}}</p>
+    </div>
+</template>
+
+<script>
+    const cpn = {
+        template: "#cpn",
+
+        // properties(属性)，
+        // 1.数组写法
+        // props:['cmessage'],
+
+        // 2.对象写法
+        props: {
+            cmessage: {
+                // 限制类型，Number，String，Boolean，Array，Object，Function，Symbol
+                type: String,
+                // 默认值
+                default() {
+                    return "the default message";
+                }
+            }
+        }
+    }
+
+    // app为根组件, 其中定义了cpn子组件，cpn是app的子组件
+    const app = new Vue({
+        el: '#app',
+        data: {
+            message: 'chibiken',
+        },
+        components: {
+            // es6对象增强写法
+            cpn
+        },
+    })
+</script>
+
+</body>
+</html>

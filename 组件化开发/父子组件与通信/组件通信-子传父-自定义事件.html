@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../vue.js" charset="utf-8"></script>
+</head>
+<body>
+
+<!--父组件模版-->
+<!--2.父组件监听事件，以往只可以监听click,input等默认事件，现在多监听了一个名为btnClick的事件-->
+<!--自定义事件和自定义属性一样不允许驼峰式书写-->
+<div id="app">
+    <!-- 在父组件app中监听到了子组件cpn发射的事件item-click，从而调用父组件的事件cpnClick -->
+    <cpn @item-click="cpnClick"></cpn>
+</div>
+
+<!--子组件模版-->
+<template id="cpn">
+    <div>
+        <button v-for="item in categories" @click="btnClick(item)">{{item.name}}</button>
+    </div>
+</template>
+
+<script>
+    // 1.子组件
+    const cpn = {
+        template: "#cpn",
+        data() {
+            return {
+                categories: [
+                    {id:'1', name:'aaa'},
+                    {id:'2', name:'bbb'},
+                    {id:'3', name:'ccc'},
+                    {id:'4', name:'ddd'},
+                ],
+                message: "son"
+            }
+        },
+        methods: {
+            btnClick(item) {
+                console.log("child emit" + item);
+                // 1.子组件发射事件
+                this.$emit("item-click", item)
+            }
+        }
+    }
+
+    // 2.父组件
+    const app = new Vue({
+        el: "#app",
+        data: {
+            message: "chibiken"
+        },
+        components: {
+            cpn
+        },
+        methods: {
+            cpnClick(item) {
+                console.log("father get " + item.id + ":" + item.name);
+            }
+        }
+    })
+</script>
+</body>
+</html>

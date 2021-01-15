@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../vue.js" charset="utf-8"></script>
+</head>
+<body>
+
+<div id="app">
+    <cpn :stuname="name" :stuscore="score" @score-input="scoreUpdate"></cpn>
+</div>
+
+</body>
+
+<template id="cpn">
+    <div>
+        <p>Name:{{name}}</p>
+        <p>The Score: <input type="text" :value="score" @input="scoreInput($event)"></p>
+        <p>The proportion: <input type="text" v-model="proportion"></p>
+        <p>The actual score: {{actualScore}}</p>
+
+        <!-- This is the props from father component -->
+        <p>props score: {{stuscore}}</p>
+    </div>
+</template>
+
+<script>
+    const cpn = {
+        template: "#cpn",
+        props: {
+            stuname: String,
+            stuscore: {
+                type: Number,
+                default() {
+                    return 0
+                }
+            },
+        },
+        data() {
+            return {
+                name: this.stuname,
+                score: this.stuscore,
+                proportion: 0.5,
+            }
+        },
+        computed: {
+            actualScore() {
+                return this.proportion * this.score
+            }
+        },
+        methods: {
+            scoreInput(event) {
+                this.score = parseInt(event.target.value)
+                this.$emit("score-input", event)
+            }
+        }
+    }
+
+    const app = new Vue({
+        el: '#app',
+        data: {
+            name: "Chibiken",
+            score: 90,
+        },
+        components: {
+            cpn,
+        },
+        methods: {
+            scoreUpdate(event) {
+                this.score = parseInt(event.target.value)
+            }
+        }
+    })
+</script>
+</html>
