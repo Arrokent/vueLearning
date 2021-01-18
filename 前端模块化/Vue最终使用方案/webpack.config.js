@@ -29,6 +29,13 @@ module.exports = {
                 }, {
                     loader: "less-loader" // compiles Less to CSS
                 }]
+            },
+
+            {
+                test: /.vue$/,
+                use: [{
+                    loader: "vue-loader"
+                }]
             }
         ]
     },

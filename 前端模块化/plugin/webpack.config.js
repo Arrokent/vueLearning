@@ -1,12 +1,12 @@
-const path = require('path');
+const path = require('path')
+const webpack = require('webpack')
+const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
     entry: './src/main.js',
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: 'bundle.js',
-        // 所有url都会拼接这个字符串
-        publicPath: 'dist/'
     },
     module: {
         // npm install --save-dev css-loader
@@ -29,7 +29,20 @@ module.exports = {
                 }, {
                     loader: "less-loader" // compiles Less to CSS
                 }]
+            },
+
+            {
+                test: /.vue$/,
+                use: [{
+                    loader: "vue-loader"
+                }]
             }
         ]
     },
+    plugins: [
+        new webpack.BannerPlugin('最终版权归Chibiken所有'),
+        new HtmlWebpackPlugin({
+            template: 'index.html',
+        })
+    ]
 }

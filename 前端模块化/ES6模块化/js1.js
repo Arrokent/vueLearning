@@ -6,9 +6,13 @@ function sum(num1, num2) {
 }
 
 // export method 1
-export {name, sum}
+// 先定义，再导出
+export {
+    name, sum
+}
 
 // export method 2
+// 定义的时候就导出
 export var num1 = 10;
 export function minus(num1, num2) {
     return num1 - num2;

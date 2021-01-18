@@ -19,31 +19,51 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae84ee48-9b18-4bdd-8eca-4529231b5998" name="Default Changelist" comment="vue基本操作复习完成">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/前端模块化/webpack配置vue/dist/bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/前端模块化/webpack配置vue/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/前端模块化/webpack配置vue/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/前端模块化/webpack配置vue/src/css/bodyStyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/前端模块化/webpack配置vue/src/css/speicalStyle.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/前端模块化/webpack配置vue/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/前端模块化/webpack配置vue/src/js/functions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/前端模块化/webpack配置vue/src/js/info.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/前端模块化/webpack配置vue/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/前端模块化/webpack配置vue/webpack.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/组件化开发/基本语法/组件通用格式.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/组件化开发/父子组件与通信/父子组件通信案例.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/组件化开发/父子组件与通信/组件通信-子传父-自定义事件.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/组件化开发/父子组件与通信/组件通信-父传子-自定义属性.html" afterDir="false" />
+    <list default="true" id="ae84ee48-9b18-4bdd-8eca-4529231b5998" name="Default Changelist" comment="vue组件化开发复习完成">
+      <change afterPath="$PROJECT_DIR$/前端模块化/Vue最终使用方案/dist/bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/前端模块化/Vue最终使用方案/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/前端模块化/Vue最终使用方案/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/前端模块化/Vue最终使用方案/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/前端模块化/Vue最终使用方案/src/Vue/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/前端模块化/Vue最终使用方案/src/Vue/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/前端模块化/Vue最终使用方案/src/Vue/Cpn.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/前端模块化/Vue最终使用方案/src/css/bodyStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/前端模块化/Vue最终使用方案/src/css/speicalStyle.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/前端模块化/Vue最终使用方案/src/js/functions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/前端模块化/Vue最终使用方案/src/js/info.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/前端模块化/Vue最终使用方案/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/前端模块化/Vue最终使用方案/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/前端模块化/plugin/dist/bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/前端模块化/plugin/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/前端模块化/plugin/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/前端模块化/plugin/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/前端模块化/plugin/src/Vue/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/前端模块化/plugin/src/Vue/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/前端模块化/plugin/src/Vue/Cpn.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/前端模块化/plugin/src/css/bodyStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/前端模块化/plugin/src/css/speicalStyle.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/前端模块化/plugin/src/js/functions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/前端模块化/plugin/src/js/info.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/前端模块化/plugin/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/前端模块化/plugin/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vueLearning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vueLearning.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/组件化开发/基本语法/组件化使用.html" beforeDir="false" afterPath="$PROJECT_DIR$/组件化开发/基本语法/组件化使用.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/组件化开发/基本语法/语法糖.html" beforeDir="false" afterPath="$PROJECT_DIR$/组件化开发/基本语法/语法糖.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/组件化开发/拓展插条/具名插条.html" beforeDir="false" afterPath="$PROJECT_DIR$/组件化开发/拓展插条/具名插条.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/组件化开发/拓展插条/插条slot-组件拓展.html" beforeDir="false" afterPath="$PROJECT_DIR$/组件化开发/拓展插条/插条slot.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/组件化开发/父子组件与通信/父传子复习.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/组件化开发/父子组件与通信/父子组件.html" beforeDir="false" afterPath="$PROJECT_DIR$/组件化开发/父子组件与通信/父子组件.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/组件化开发/父子组件与通信/组件通信-子传父.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/组件化开发/父子组件与通信/组件通信-父传子.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/前端模块化/ES6模块化/js1.js" beforeDir="false" afterPath="$PROJECT_DIR$/前端模块化/ES6模块化/js1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/前端模块化/webpack-loader/dist/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/前端模块化/webpack-loader/dist/bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/前端模块化/webpack-loader/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/前端模块化/webpack-loader/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/前端模块化/webpack基本使用/dist/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/前端模块化/webpack基本使用/dist/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/前端模块化/webpack基本使用/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/前端模块化/webpack基本使用/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/前端模块化/webpack基本使用/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/前端模块化/webpack基本使用/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/前端模块化/webpack配置vue/dist/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/前端模块化/webpack配置vue/dist/bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/前端模块化/webpack配置vue/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/前端模块化/webpack配置vue/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/前端模块化/webpack配置vue/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/前端模块化/webpack配置vue/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/前端模块化/webpack配置vue/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/前端模块化/webpack配置vue/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/前端模块化/webpack配置vue/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/前端模块化/webpack配置vue/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/前端模块化/webpack配置vue/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/前端模块化/webpack配置vue/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/前端模块化/webpack配置文件/dist/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/前端模块化/webpack配置文件/dist/bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/前端模块化/webpack配置文件/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/前端模块化/webpack配置文件/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/前端模块化/webpack配置文件/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/前端模块化/webpack配置文件/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/前端模块化/webpack配置文件/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/前端模块化/webpack配置文件/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,9 +74,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="Less File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="Vue Single File Component" />
       </list>
     </option>
   </component>
@@ -78,26 +99,26 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/基本操作/动态绑定" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/前端模块化" />
     <property name="list.type.of.created.stylesheet" value="Less" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/前端模块化/webpack-loader/src/js" />
-      <recent name="$PROJECT_DIR$/前端模块化/webpack/src" />
-      <recent name="$PROJECT_DIR$/组件化开发/拓展插条" />
-      <recent name="$PROJECT_DIR$/组件化开发" />
-      <recent name="$PROJECT_DIR$/组件访问" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/基本操作/动态绑定" />
       <recent name="$PROJECT_DIR$/前端模块化" />
+      <recent name="$PROJECT_DIR$/前端模块化/Vue最终使用方案" />
+      <recent name="$PROJECT_DIR$/基本操作/动态绑定" />
       <recent name="$PROJECT_DIR$/前端模块化/webpack配置文件" />
       <recent name="$PROJECT_DIR$/项目/书籍购物车" />
-      <recent name="D:\web workplace\vueLearning" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/前端模块化/webpack-loader" />
+      <recent name="$PROJECT_DIR$/前端模块化/webpack-loader/dist" />
+      <recent name="$PROJECT_DIR$/前端模块化/webpack配置vue" />
+      <recent name="$PROJECT_DIR$/前端模块化/webpack配置文件" />
+      <recent name="$PROJECT_DIR$/前端模块化/webpack基本使用" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -117,7 +138,9 @@
       <workItem from="1607403609003" duration="3319000" />
       <workItem from="1610012706731" duration="27231000" />
       <workItem from="1610535604340" duration="4612000" />
-      <workItem from="1610545996562" duration="6915000" />
+      <workItem from="1610545996562" duration="11758000" />
+      <workItem from="1610721816069" duration="12358000" />
+      <workItem from="1610901450902" duration="9063000" />
     </task>
     <task id="LOCAL-00001" summary="40小结之前的内容学完了">
       <created>1606830203390</created>
@@ -273,7 +296,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610353743024</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="vue组件化开发复习完成">
+      <created>1610696561333</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1610696561333</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -310,7 +340,8 @@
     <MESSAGE value="webpack的less-loader使用" />
     <MESSAGE value="重拾vue，加油！！" />
     <MESSAGE value="vue基本操作复习完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="vue基本操作复习完成" />
+    <MESSAGE value="vue组件化开发复习完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="vue组件化开发复习完成" />
   </component>
   <component name="WindowStateProjectService">
     <state x="509" y="245" key="#Web_Browsers" timestamp="1607043852596">

@@ -16,9 +16,13 @@ require('./css/speicalStyle.less')
 
 // rely on vue
 import Vue from 'vue/dist/vue.esm.js'
+// to use .vue file, npm install vue-loader vue-template-compiler --save-dev
+import App from './Vue/App.vue'
+
 new Vue({
     el: '#app',
-    data: {
-        message: "Chibiken"
+    template: `<App></App>`,
+    components: {
+        App
     }
 })

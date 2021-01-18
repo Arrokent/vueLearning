@@ -1,6 +1,6 @@
 // use npm init use build the package.json first
 
-// 通过commonjs语法, 导入了node全局的一个包-path
+// 通过commonjs语法, 导入了node全局的一个包-path，负责 path.resolve(__dirname, 'dist')这句命令执行
 const path = require('path');
 
 module.exports = {
@@ -13,6 +13,7 @@ module.exports = {
     }
 }
 
+// webpack init to get the package.json
 // and then, use command -- webpack
 
 // in package.json
