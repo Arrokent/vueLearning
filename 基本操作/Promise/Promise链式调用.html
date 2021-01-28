@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    // 一般链式写法
+    // new Promise(resolve => {
+    //     resolve('success')
+    // }).then(res => {
+    //     console.log(res);
+    //     return new Promise(resolve => {
+    //         resolve(res + 1)
+    //     })
+    // }).then(res => {
+    //     console.log(res);
+    //     return new Promise(resolve => {
+    //         resolve(res + 2)
+    //     })
+    // }).then(res => {
+    //     console.log(res);
+    // })
+
+    // 简写法
+    // return 会自动进行Promise封装
+    new Promise(resolve => {
+        resolve('success')
+    }).then(res => {
+        console.log(res);
+        // return res + 1
+        throw res + 'err'
+    }).then(res => {
+        console.log(res);
+        return res + 2
+    }).then(res => {
+        console.log(res);
+    }).catch(err => {
+        console.log(err);
+    })
+</script>
+</html>

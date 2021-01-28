@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+
+<script>
+    // 普通函数
+    const funcA = function () {
+        console.log("A");
+    }
+
+    // 对象字面量中定义函数
+    const obj = {
+        funB() {
+            console.log("B");
+        }
+    }
+
+    // 箭头函数
+    const funcC = () => {
+        console.log("C");
+    }
+
+    // 箭头函数省略的情况
+    // 当有一个参数时，可省略括号
+    const power = num => {
+        return num * num
+    }
+
+    // 当只有一行代码时可以省略打括号
+    const add = (num1, num2) => num1 + num2
+
+    // 结合两者
+    const double = num => 2 * num
+
+    // 箭头函数的this是往外一层层找的第一个this
+    setTimeout(function () {
+        console.log(this);
+    }, 1000)
+
+    setTimeout(() => {
+        console.log(this);
+    }, 2000)
+</script>
+</html>

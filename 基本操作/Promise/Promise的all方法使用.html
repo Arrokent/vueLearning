@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    // all方法的参数为一个Promise请求数组
+    Promise.all([
+        new Promise(resolve => {
+            resolve('promise 1 ok')
+        }),
+        new Promise(resolve => {
+            resolve('promise 2 ok')
+        }),
+    ]).then(results => {
+        //results 也是一个数组，里面是上面Promise请求的结果
+        console.log(results[0])
+        console.log(results[1])
+    })
+</script>
+</html>
